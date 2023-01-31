@@ -1,0 +1,6 @@
+framework module TestFly {
+  umbrella header "TestFly-umbrella.h"
+
+  export *
+  module * { export * }
+}

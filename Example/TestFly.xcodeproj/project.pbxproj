@@ -314,10 +314,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-TestFly_Example/Pods-TestFly_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/TestFly/TestFly.framework",
+				"${BUILT_PRODUCTS_DIR}/libPhoneNumber-iOS/libPhoneNumber_iOS.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TestFly.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libPhoneNumber_iOS.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

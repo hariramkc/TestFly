@@ -1,0 +1,23 @@
+PODS:
+  - libPhoneNumber-iOS (0.9.15)
+  - TestFly (0.1.0)
+
+DEPENDENCIES:
+  - libPhoneNumber-iOS (~> 0.8)
+  - TestFly (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - libPhoneNumber-iOS
+
+EXTERNAL SOURCES:
+  TestFly:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  libPhoneNumber-iOS: 0a32a9525cf8744fe02c5206eb30d571e38f7d75
+  TestFly: 07023df30d4b4c9a0c437a103c9e19970e7ac7f2
+
+PODFILE CHECKSUM: b47a278fc24ca66dab4aa842fe5d687496543326
+
+COCOAPODS: 1.11.3
